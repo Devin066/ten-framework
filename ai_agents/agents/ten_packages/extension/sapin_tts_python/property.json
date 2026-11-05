@@ -1,0 +1,9 @@
+{
+  "dump": false,
+  "dump_path": "/tmp",
+  "params": {
+    "url": "${env:SAPIN_TTS_URL|ws://104.208.87.149:8765/tts}",
+    "lang": "${env:SAPIN_TTS_LANG|fil}",
+    "voice": "${env:SAPIN_TTS_VOICE|}"
+  }
+}

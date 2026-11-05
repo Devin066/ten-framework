@@ -1,0 +1,6 @@
+{
+  "params": {
+    "url": "${env:SAPIN_TTS_URL|ws://104.208.87.149:8765/tts}",
+    "lang": "invalid"
+  }
+}

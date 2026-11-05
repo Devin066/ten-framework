@@ -187,6 +187,9 @@
       "path": "../../../ten_packages/extension/smallest_tts_python"
     },
     {
+      "path": "../../../ten_packages/extension/sapin_tts_python"
+    },
+    {
       "path": "../../../ten_packages/extension/fish_asr_python"
     }
   ],

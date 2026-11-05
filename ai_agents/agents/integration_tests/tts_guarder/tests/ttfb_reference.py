@@ -87,6 +87,12 @@ HOOKS = {
         "minimax_tts",
         "wss://api.minimax.cn/ws/v1/t2a_v2_bidi",
     ),
+    "sapin_tts_python": (
+        "sapin",
+        "SapinObserver",
+        "sapin_tts",
+        "ws://104.208.87.149:8765/tts",
+    ),
     "soul_tts_python": (
         "soul",
         "SoulObserver",
@@ -102,6 +108,7 @@ CONFIGS = {
     "elevenlabs_multiple_context_tts_python": ("ElevenLabsTTSConfig", "url"),
     "minimax_tts_websocket": ("MinimaxTTSWebsocketConfig", "url"),
     "minimax_tts_websocket_duplex": ("MinimaxTTSWebsocketDuplexConfig", "url"),
+    "sapin_tts_python": ("SapinTTSConfig", "url"),
     "soul_tts_python": ("SoulTTSWebsocketConfig", "url"),
 }
 
